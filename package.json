@@ -1,0 +1,21 @@
+{
+  "name": "connect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-matix": "node index.js",
+    "test-matrix-simple": "node index-simple.js",
+    "converter-test": "npm run converter -- --sourceUrl='https://s3.amazonaws.com/uux-itaas-static/minha-cdn-logs/input-01.txt' --targetPath='./result.txt'",
+    "converter": "node cnd.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "console-read-write": "^0.1.1",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "request": "^2.88.2",
+    "yargs": "^16.1.1"
+  }
+}
