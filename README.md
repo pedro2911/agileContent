@@ -9,7 +9,8 @@
     
 
 # 1-AdjacentMaxDistance
-    Para este exercicio, eu criei duas versões. Uma da maneira que foi requerida e com entrada de dados manualmente e a segunda muito mais interativa. Nesta última os dados são pedidos via consola.
+    Para este exercicio, eu criei duas versões. Uma da maneira que foi requerida e com entrada de dados manualmente e a segunda muito mais
+    interativa. Nesta última os dados são pedidos via consola.
 
     Para rodar a versão simples deve executar
     npm run test-matrix-simple
